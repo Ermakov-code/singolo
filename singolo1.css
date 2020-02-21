@@ -91,9 +91,12 @@ ul {
     justify-content: space-around;
 
 }
-
-
-
+.positions {
+    position: relative;
+}
+.positions h2 {
+    
+}
 * {
     margin: 0;
     padding: 0;
