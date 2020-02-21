@@ -53,6 +53,47 @@ ul {
     background-color: #323746;
     top: 89px;
 }
+.footer-info{
+    font-size: 15px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    position: relative;
+    top: 68px;
+    left: 40px;
+    letter-spacing: 0.4px;
+    word-spacing: -1.3px;
+}
+.fish-text{
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    position: relative;
+    top: 95px;
+    left: 40px;
+    letter-spacing: -0.1px;
+    word-spacing: 0.2px;
+}
+.options{
+    position: relative;
+    top: 227px;
+}
+.options-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+
 * {
     margin: 0;
     padding: 0;
