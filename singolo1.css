@@ -2,15 +2,7 @@
 
     font-family: 'Lato';
     
-    /* src: url('../fonts/WebFont.eot');
-    
-    src: url('../fonts/WebFont.eot?iefix') format('eot'),
-    
-    url('../fonts/WebFont.woff') format('woff'), */
-    
     src: url("./assets/Lato-Regular.ttf") format('truetype');
-    
-    /* url('../fonts/WebFont.svg#webfont') format('svg'); */
     
     font-weight: normal;
     
@@ -62,22 +54,6 @@ li a{
 .navis li ::before :hover  {
     text-decoration: none;
 }
-/* ul :first-child {
-    list-style-type: none;
-}
-li ::before{
-    content: "*";
-    width: 100px;
-    padding-right: 10px;
-}
-.navis {
-   
-}
-.navis li + li ::before{
-    content: '•';
-    
-}
-*/
 li  {
     cursor: pointer;
     
@@ -88,16 +64,11 @@ li :hover{
 }
 
 ul {
-    /* display: flex; */
-    /* justify-content: space-between; */
     font-size: 12px;
     line-height: 16px;
     color: white;
     font-family: "Lato";
-    font-weight: 700;
-    /* text-align: left; */
-    /* padding: 0 20px; */
-    
+    font-weight: 700;    
 }
 .logo {
     font-size: 25px;
