@@ -1,3 +1,23 @@
+@font-face{
+
+    font-family: 'Lato';
+    
+    /* src: url('../fonts/WebFont.eot');
+    
+    src: url('../fonts/WebFont.eot?iefix') format('eot'),
+    
+    url('../fonts/WebFont.woff') format('woff'), */
+    
+    src: url("./assets/Lato-Regular.ttf") format('truetype');
+    
+    /* url('../fonts/WebFont.svg#webfont') format('svg'); */
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+    }
+
 header {
     width: 1020px;
     height: 95px;
@@ -22,21 +42,62 @@ nav {
     width: 373px;
     
 }
-ul :first-child {
+.navis {
+    margin: 0;
+    padding: 0px;
+    width: 374px;
+}
+li a{
+    text-align: center;
+}
+.navis li {
+    display: inline-block;
+    padding-right: 1.3px;
+}
+.navis li + li ::before{
+    content: '·';
+    text-decoration: none;
+    padding: 0 11px;
+}
+.navis li ::before :hover  {
+    text-decoration: none;
+}
+/* ul :first-child {
     list-style-type: none;
 }
 li ::before{
+    content: "*";
     width: 100px;
+    padding-right: 10px;
 }
+.navis {
+   
+}
+.navis li + li ::before{
+    content: '•';
+    
+}
+*/
+li  {
+    cursor: pointer;
+    
+}
+li :hover{
+    text-decoration: underline;
+    color: #f06c64;
+}
+
 ul {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
     font-size: 12px;
     line-height: 16px;
-    color: #f06c64;
+    color: white;
     font-family: "Lato";
     font-weight: 700;
-    text-align: left;
+    /* text-align: left; */
+    /* padding: 0 20px; */
+    
 }
 .logo {
     font-size: 25px;
@@ -45,6 +106,9 @@ ul {
     font-family: "Lato";
     font-weight: 700;
     text-align: left;
+}
+.logo span {
+    color:#f06c64;
 }
 .header-bottom {
     position: absolute;
@@ -114,7 +178,7 @@ ul {
     left: -79px;
 }
 .positions p{
-    width: 240px;
+    width: 238px;
     height: 127px;
     font-size: 12px;
     line-height: 21px;
@@ -142,11 +206,16 @@ ul {
     position: relative;
     top: -175px;
     left: 212px;
+    cursor: pointer;
 }
 .chev-left{
     position: relative;
     top: -175px;
     left: -690px;
+    cursor: pointer;
+}
+.chev :active {
+    background-color: black;
 }
 .Bg-Bottom {
     width: 1020px;
@@ -154,6 +223,11 @@ ul {
     background-color: #ea676b;
     position: relative;
     top: 107px;
+}
+.bottomLine{
+    width: 1020px;
+    height: 5px;
+    background-color: #ffffff;
 }
 * {
     margin: 0;
