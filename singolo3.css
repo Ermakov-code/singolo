@@ -17,7 +17,7 @@
     .main-info{
         height: 217px;
     }
-    h1{
+    .Get{
         font-size: 30px;
         line-height: 18px;
         color: #f0d8d9;
@@ -110,7 +110,7 @@
         height: 194px;  
         padding-top: 6px;
     }
-    h2{
+    .ContactI{
         font-size: 18px;
         line-height: 18px;
         color: #f0d8d9;

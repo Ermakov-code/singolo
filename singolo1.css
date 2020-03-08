@@ -39,31 +39,31 @@ nav {
     padding: 0px;
     width: 374px;
 }
-li a{
+.gav a{
     text-align: center;
 }
-.navis li {
+.navis .gav {
     display: inline-block;
     padding-right: 1.3px;
 }
-.navis li + li ::before{
+.navis .gav + .gav ::before{
     content: '·';
     text-decoration: none;
     padding: 0 11px;
 }
-.navis li ::before :hover  {
+.navis .gav ::before :hover  {
     text-decoration: none;
 }
-li  {
+.gav  {
     cursor: pointer;
     
 }
-li :hover{
+.gav :hover{
     text-decoration: underline;
     color: #f06c64;
 }
 
-ul {
+.navis {
     font-size: 12px;
     line-height: 16px;
     color: white;

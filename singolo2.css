@@ -45,7 +45,7 @@
 
     
 
-    h1{
+    .Port{
         font-size: 30px;
         line-height: 18px;
         color: #666d89;
@@ -209,7 +209,7 @@
         width: 300px;
     }
 
-    h2 {
+    .Adam {
         font-size: 18px;
         line-height: 18px;
         color: #666d89;
@@ -253,7 +253,7 @@
         left: 5px;
     }
 
-    ul{
+    .Pis{
         /* list-style: none;  */
         margin: 0; 
         padding-left: 0; 
@@ -262,11 +262,11 @@
         left: 37.5px;
     }
 
-    ul li {
+    ul .Vir {
         display: inline;
     }
 
-    li {
+    .Vir {
         font-size: 12px;
         line-height: 22px;
         color: #767e9e;
